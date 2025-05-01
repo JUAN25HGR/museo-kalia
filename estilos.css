@@ -331,5 +331,28 @@ footer {
 .ir-arriba img:hover{
 	transform: scale(1.1);
   	transition: 100ms;
+	.enlaces-salas {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 20px 0;
+  align-items: start;
+}
+
+.boton-sala {
+  background-color: #243B55;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  width: fit-content;
+}
+
+.boton-sala:hover {
+  background-color: #C1442E;
+}
 }
 /***************************************************/
